@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card-image">
+            <img src="images/main-img.png">
+        </div>
+
+        <header>
+            <div class="card-header">
+                <h1 class="card-header-title">What's the score?</h1>
+            </div>
+        </header>
+
+        <div class="card-content">
+            <div class="content">
+                <h1 class="content-title">
+                    <span id="p1Display">0</span> to <span id="p2Display">0</span>
+                </h1>
+
+                <label for="playto" class="playto">Playing To:</label>
+                <div class="select">
+                    <select name="" id="playto">
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="8">8</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <p class="subtitle">Use the buttons below to keep score</p>
+            <div class="card-buttons">
+                <button id="p1Button" class="player-btn">+1 Player One</button>
+                <button id="p2Button" class="player-btn">+1 Player Two</button>
+            </div>
+            
+            <p class="subtitle">Use the button below to reset the game</p>
+            <div class="card-reset">
+                <button id="reset" class="reset-btn">Reset</button>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
